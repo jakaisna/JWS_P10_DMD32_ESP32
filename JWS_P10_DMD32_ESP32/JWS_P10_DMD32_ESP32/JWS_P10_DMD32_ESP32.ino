@@ -55,7 +55,7 @@
 
 #include <Wire.h>
 #define  F2(progmem_ptr) (const __FlashStringHelper *)progmem_ptr
-#include <DS3231.h>
+#include <DS3231.h> //https://github.com/NorthernWidget/DS3231
 #include <EEPROM.h>
 //#include <avr/pgmspace.h>
 #include "BluetoothSerial.h"
